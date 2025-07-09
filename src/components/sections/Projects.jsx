@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/dsaurav4/Finance-App"
+                  href="https://saurav-finance.netlify.app"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project →
