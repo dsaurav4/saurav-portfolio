@@ -177,7 +177,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/dsaurav4/Stroke-Analysis"
+                  href="https://archive.org/details/cmps320_Group_1_final_project_report"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project →
