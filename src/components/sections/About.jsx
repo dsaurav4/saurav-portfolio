@@ -65,13 +65,30 @@ const About = () => {
                 <h4 className="text-lg">Ramapo College of New Jersey </h4>
               </strong>
               <p>B.S. in Computer Science w. Minor in Data Science</p>
-              <p className="font-bold mt-2">Relevant Courses:</p>
+              <p>(Summa Cum Laude)</p>
+              <p>
+                GPA:{" "}
+                <span>
+                  <strong>3.97</strong>/4.00
+                </span>
+              </p>
+              <p className="font-bold mt-5">Relevant Courses:</p>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>Data Structues</li>
                 <li>Web Development</li>
                 <li>Machine Learning</li>
                 <li>Computer Graphics</li>
                 <li>Database Design</li>
+              </ul>
+              <p className="font-bold mt-5">Academic Achievement</p>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>HackRU 2023 Winner (Best use of MongoDB)</li>
+                <li>
+                  Pi Mu Epsilon (National Mathematics Honor Society) – Inducted
+                  Spring 2025
+                </li>
+                <li>Dean's List</li>
+                <li>Presidential Scholarship</li>
               </ul>
             </div>
 
@@ -86,6 +103,28 @@ const About = () => {
                   Supported network optimization efforts, contributing to a 35%
                   downtime reduction, a 40% boost in IT support satisfaction,
                   and enhanced monitoring with Cisco tools.
+                </li>
+              </ul>
+              <strong>
+                <h4 className="text-lg mt-3">Tutor</h4>
+              </strong>
+              <p>STEM CENTER, Ramapo College (2024-2024)</p>
+              <ul className="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>
+                  Mentored students in software engineering (Python, C++,
+                  JavaScript), OOP, and data structures to strengthen their
+                  algorithmic and problem-solving skills.
+                </li>
+              </ul>
+              <strong>
+                <h4 className="text-lg mt-3">Resident Assistant</h4>
+              </strong>
+              <p>ResLife, Ramapo College (2024-2025)</p>
+              <ul className="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>
+                  Increased student engagement by 30% through community
+                  initiatives while ensuring resident safety via expert crisis
+                  management and emergency response.
                 </li>
               </ul>
             </div>
