@@ -1,3 +1,6 @@
+import linkedinIcon from "../assets/linkedin.svg";
+import githubIcon from "../assets/github.svg";
+
 const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
@@ -49,6 +52,14 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         }`}
       >
         Contact
+      </a>
+
+      <a href="https://www.linkedin.com/in/sauravdahal4/">
+        <img src={linkedinIcon} alt="" height={30} width={30} />
+      </a>
+
+      <a href="https://github.com/dsaurav4" className="m-5">
+        <img src={githubIcon} alt="" height={30} width={30} />
       </a>
     </div>
   );

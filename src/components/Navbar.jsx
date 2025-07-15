@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import linkedinIcon from "../assets/linkedin.svg";
+import githubIcon from "../assets/github.svg";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -42,6 +44,14 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-gray-300 hover:text-white transition-colors"
             >
               Contact
+            </a>
+
+            <a href="https://www.linkedin.com/in/sauravdahal4/">
+              <img src={linkedinIcon} alt="" height={30} width={30} />
+            </a>
+
+            <a href="https://github.com/dsaurav4">
+              <img src={githubIcon} alt="" height={30} width={30} />
             </a>
           </div>
         </div>
