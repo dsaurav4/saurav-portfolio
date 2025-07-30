@@ -1,4 +1,6 @@
 import RevealOnScroll from "../RevealOnScroll";
+import myImage from "../../assets/my_image.jpeg";
+import myImage2 from "../../assets/my_image_2.jpeg";
 
 const Home = () => {
   return (
@@ -11,6 +13,19 @@ const Home = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
             Hi, I'm Saurav Dahal.
           </h1>
+
+          <div className="flex items-center justify-center overflow-hidden mb-8 gap-2">
+            <img
+              src={myImage}
+              alt="Saurav"
+              className="block h-60 w-60 object-cover rounded-2xl"
+            />
+            <img
+              src={myImage2}
+              alt="Saurav2"
+              className="block h-60 w-60 object-cover rounded-2xl"
+            />
+          </div>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
             I'm a full-stack software developer who loves to solve problems and
             work on new ideas. My goal is to work on projects that can make an
